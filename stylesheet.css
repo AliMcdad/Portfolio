@@ -41,7 +41,7 @@
   }
   
   .navbar a:hover {
-    color: #0ef;
+    color: #31473A;
   }
   
   .home {
@@ -83,10 +83,10 @@
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #7C8363;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #7C8363;
     text-decoration: none;
     margin: 30px 15px 30px 0;
   }
@@ -100,7 +100,7 @@
   .btn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #EDF4F2;
     border-radius: 40px;
     font-size: 16px;
     color: #010e0c;
