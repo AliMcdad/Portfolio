@@ -49,8 +49,7 @@
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url("C:\Users\Hi\Pictures\Google\1_OlgqUIhvl5-9dZISlZ2-yQ.jpg")
-      no-repeat;
+    background: url("C:\Users\Hi\Pictures\Screenshots\Screenshot (10).png") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
