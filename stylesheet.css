@@ -57,3 +57,11 @@
     padding: 70px 10% 0;
   }
   
+  .home-content {
+    max-width: 600px;
+  }
+
+  .home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+  }
