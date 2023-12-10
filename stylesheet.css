@@ -76,7 +76,7 @@
     font-size: 20px;
   }
 
-  home-sci a {
+  .home-sci a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
