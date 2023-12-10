@@ -94,5 +94,5 @@
   .home-sci a:hover{
     background: #0ef;
     color: #010e0c;
-    box-shadow: 0 0 20px 0;
+    box-shadow: 0 0 20px 0 #0ef;
   }
