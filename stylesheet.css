@@ -96,3 +96,15 @@
     color: #010e0c;
     box-shadow: 0 0 20px 0 #0ef;
   }
+
+  .btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #010e0c;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+  }
