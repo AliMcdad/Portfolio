@@ -114,7 +114,7 @@
    transition: .5s ease;
    opacity: 0;
    animation: slideLeft 1s ease forwards;
-   animation-delay: calc(.2s * var);
+   animation-delay: calc(.2s * var(--i));
    margin: 30px 15px 30px 0;
  }
 
@@ -135,6 +135,10 @@
    letter-spacing: 1px;
    text-decoration: none;
    font-weight: 600;
+   opacity: 0;
+   animation: slideTop 1s ease forwards;
+   animation-delay: 2s;
+   box-shadow:0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
  }
 
  .btn-box:hover {
