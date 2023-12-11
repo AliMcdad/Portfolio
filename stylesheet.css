@@ -48,7 +48,7 @@
  }
 
  .navbar a:hover {
-   color: #EDF4F2
+   color: #7C8363
  }
 
  .home {
@@ -142,7 +142,7 @@
    opacity: 0;
    animation: slideTop 1s ease forwards;
    animation-delay: 2s;
-   box-shadow:0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
+   box-shadow: 0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
  }
 
  .btn-box:hover {
@@ -151,7 +151,7 @@
  }
 
  /*keys for slide Typed>>>>>>*/
- 
+
  @keyframes slideRight {
    0% {
      transform: translateX(-100px);
