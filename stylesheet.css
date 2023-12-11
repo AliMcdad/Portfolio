@@ -44,6 +44,7 @@
    transition: 0.3s;
    opacity: 0;
    animation: slideTop .5s ease forwards;
+   animation-delay: calc(.2s * var(--i));
  }
 
  .navbar a:hover {
