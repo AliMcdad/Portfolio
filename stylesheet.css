@@ -7,6 +7,7 @@
 
  body {
    color: #ededed;
+   background: #31473A;
  }
 
  .header {
@@ -165,6 +166,13 @@
   width: 100%;
   border-radius: 8px;
  }
+
+ .about-text h2{
+font-size: 60px;
+ }
+
+
+
  /*keys for slide Typed>>>>>>*/
 
  @keyframes slideRight {
