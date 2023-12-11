@@ -1,116 +1,120 @@
  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-  }
-  
-  body {
-    color: #ededed;
-  }
-  
-  .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-  }
-  
-  .logo {
-    position: relative;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
-  .navbar a {
-    display: inline-block;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: 0.3s;
-  }
-  
-  .navbar a:hover {
-    color: #31473A;
-  }
-  
-  .home {
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    height: 100vh;
-    background: url('https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    padding: 70px 10% 0;
-  }
-  
-  .home-content {
-    max-width: 600px;
-  }
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'poppins', sans-serif;
+ }
 
-  .home-content h3{
-    font-size: 32px;
-    font-weight: 700;
-  }
+ body {
+   color: #ededed;
+ }
 
-  .home-content h1{
-    font-size: 56px;
-    font-weight: 700;
-    margin: -3px 0;
-  }
+ .header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 10%;
+   background: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+ }
 
-  .home-content p{
-    font-size: 20px;
-  }
+ .logo {
+   position: relative;
+   font-size: 25px;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 600;
+ }
 
-  .home-sci a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid #7C8363;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #7C8363;
-    text-decoration: none;
-    margin: 30px 15px 30px 0;
-  }
+ .navbar a {
+   display: inline-block;
+   font-size: 25px;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 35px;
+   transition: 0.3s;
+ }
 
-  .home-sci a:hover{
-    background: #7C8363;
-    color: #010e0c;
-    box-shadow: 0 0 5px #7C8363,
-    0 0 25px #7C8363, 0 0 50px #7C8363;
-  }
+ .navbar a:hover {
+   color: #31473A;
+ }
 
-  .btn-box {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #EDF4F2;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #010e0c;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-  }
+ .home {
+   position: relative;
+   width: 100%;
+   justify-content: space-between;
+   height: 100vh;
+   background: url('https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   padding: 70px 10% 0;
+ }
 
-  .btn-box:hover{
-    box-shadow: 0 0 5px #EDF4F2,
-    0 0 25px #EDF4F2, 0 0 50px #EDF4F2, 0 0 100px #EDF4F2 ;
-  }
+ .home-content {
+   max-width: 600px;
+ }
+
+ .home-content h3 {
+   font-size: 32px;
+   font-weight: 700;
+ }
+
+ .home-content h3 {
+  color: #31473A;
+ }
+
+ .home-content h1 {
+   font-size: 56px;
+   font-weight: 700;
+   margin: -3px 0;
+ }
+
+ .home-content p {
+   font-size: 20px;
+ }
+
+ .home-sci a {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   background: transparent;
+   border: 2px solid #7C8363;
+   border-radius: 50%;
+   font-size: 20px;
+   color: #7C8363;
+   text-decoration: none;
+   margin: 30px 15px 30px 0;
+ }
+
+ .home-sci a:hover {
+   background: #7C8363;
+   color: #010e0c;
+   box-shadow: 0 0 5px #7C8363,
+     0 0 25px #7C8363, 0 0 50px #7C8363;
+ }
+
+ .btn-box {
+   display: inline-block;
+   padding: 12px 28px;
+   background: #EDF4F2;
+   border-radius: 40px;
+   font-size: 16px;
+   color: #010e0c;
+   letter-spacing: 1px;
+   text-decoration: none;
+   font-weight: 600;
+ }
+
+ .btn-box:hover {
+   box-shadow: 0 0 5px #EDF4F2,
+     0 0 25px #EDF4F2, 0 0 50px #EDF4F2, 0 0 100px #EDF4F2;
+ }
