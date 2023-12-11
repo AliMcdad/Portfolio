@@ -160,8 +160,8 @@
  }
 
  .about-img img {
-  padding-bottom: 20%;
-  min-width: 930px;
+  /* padding-bottom: 20%; */
+  min-width: 630px;
   height: auto;
   width: 100%;
   border-radius: 8px;
