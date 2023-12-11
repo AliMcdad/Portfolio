@@ -150,6 +150,14 @@
      0 0 25px #EDF4F2, 0 0 50px #EDF4F2, 0 0 100px #EDF4F2;
  }
 
+
+ .about {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   gap: 1.5rem;
+ }
+
  /*keys for slide Typed>>>>>>*/
 
  @keyframes slideRight {
@@ -198,11 +206,4 @@
      transform: translateY(0px);
      opacity: 1;
    }
- }
-
- .about {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   align-items: center;
-   gap: 1.5rem;
  }
