@@ -191,14 +191,24 @@
  }
 
  #services {
-  color: #EDF4F2;
-  font-size: 20px;
-  line-height: 1.4;
-  margin-bottom: 4rem;
+   color: #EDF4F2;
+   font-size: 20px;
+   line-height: 1.4;
+   margin-bottom: 4rem;
+ }
+
+ .sub-title {
+   text-align: center;
+   font-size: 80px;
+   padding: 70px;
+ }
+
+ .sub-title span {
+   color: #EAB63E;
  }
 
  .container {
-  padding: 90px;
+   padding: 90px;
  }
 
  /*keys for slide Typed>>>>>>*/
