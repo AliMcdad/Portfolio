@@ -277,6 +277,11 @@
    transform: translateY(-10px);
  }
 
+ section {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
  /*keys for slide Typed>>>>>>*/
 
  @keyframes slideRight {
