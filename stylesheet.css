@@ -235,6 +235,12 @@
     margin-bottom: 30px;
   }
 
+  .services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+ 
  /*keys for slide Typed>>>>>>*/
 
  @keyframes slideRight {
