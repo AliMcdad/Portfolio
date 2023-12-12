@@ -226,7 +226,7 @@
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0,5s;
-    box-shadow: 1px 1px 20px #002f28
+    box-shadow: 1px 1px 20px #002f28,
                 1px 1px 40px #00957f;
   }
 
