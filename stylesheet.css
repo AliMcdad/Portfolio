@@ -230,6 +230,11 @@
                 1px 1px 40px #007362;
   }
 
+  .services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
  /*keys for slide Typed>>>>>>*/
 
  @keyframes slideRight {
