@@ -188,16 +188,20 @@
    font-size: 20px;
    line-height: 1.4;
    margin-bottom: 4rem;
- }
-
- #services {
-   color: #EDF4F2;
-   font-size: 20px;
-   line-height: 1.4;
-   margin-bottom: 4rem;
- }
- 
- .sub-title {
+  }
+  
+  #services {
+    color: #EDF4F2;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+  }
+  
+  .container {
+    padding: 90px;
+  }
+  
+  .sub-title {
    text-align: center;
    font-size: 80px;
    padding: 70px;
@@ -261,10 +265,6 @@
     animation-delay: 2s;
     box-shadow: 0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
   }
-  
-   .container {
-     padding: 90px;
-   }
   
   /*keys for slide Typed>>>>>>*/
   
