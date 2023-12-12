@@ -190,6 +190,17 @@
    margin-bottom: 4rem;
  }
 
+ #services {
+  color: #EDF4F2;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+ }
+
+ .container {
+  padding: 90px;
+ }
+
  /*keys for slide Typed>>>>>>*/
 
  @keyframes slideRight {
