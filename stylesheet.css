@@ -267,10 +267,10 @@
  }
 
  .read:hover {
-   background: #7C8363;
+   background: #EDF4F2;
    color: #010e0c;
-   box-shadow: 0 0 5px #7C8363,
-     0 0 25px #7C8363, 0 0 50px #7C8363;
+   box-shadow: 0 0 5px #EDF4F2,
+     0 0 25px #EDF4F2, 0 0 50px #EDF4F2;
  }
 
  /*keys for slide Typed>>>>>>*/
