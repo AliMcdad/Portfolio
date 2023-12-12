@@ -250,7 +250,7 @@
    display: inline-block;
  }
 
- .read {
+ /* .read {
    display: inline-block;
    padding: 12px 28px;
    background: #EDF4F2;
@@ -264,7 +264,7 @@
    animation: slideTop 1s ease forwards;
    animation-delay: 2s;
    box-shadow: 0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
- }
+ } */
 
  /*keys for slide Typed>>>>>>*/
 
