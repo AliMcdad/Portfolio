@@ -241,6 +241,14 @@
     margin-bottom: 15px;
   }
  
+
+  .services-list div a {
+    text-decoration: none;
+    color:  black;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+  }
  /*keys for slide Typed>>>>>>*/
 
  @keyframes slideRight {
