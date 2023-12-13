@@ -1,17 +1,17 @@
-/* @import url('https'); */
+@import url('https');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* text-decoration: none;
+  text-decoration: none;
   border: none;
   outline: none;
-  scroll-behavior: smooth; */
+  scroll-behavior: smooth;
   font-family: 'poppins', sans-serif;
 }
 
-/* :root {
+:root {
   --bg-color: #1d1d1d;
   --second-bg-color: #302f2f;
   --text-color: #ffffff;
@@ -26,7 +26,7 @@ html {
 body{
   background: var(--bg-color);
   color: var(--text-color);
-} */
+}
 
 body {
   color: #ededed;
@@ -183,7 +183,7 @@ body {
 }
 
 .about-img img {
-  /* padding-bottom: 20%; */
+  padding-bottom: 20%; 
   min-width: 630px;
   height: auto;
   width: 100%;
@@ -424,4 +424,4 @@ section {
     transform: translateY(0px);
     opacity: 1;
   }
-}
+} 
