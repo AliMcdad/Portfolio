@@ -401,7 +401,7 @@ section {
   position: absolute;
   border-radius: 10px;
   animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  transform: scaleX(0);
+  transform: scaleX(1);
   transform-origin: left;
 }
 
