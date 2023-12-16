@@ -358,6 +358,16 @@ section {
   transform-origin: left;
 }
 
+.Technical-bars .bar .progress-line span {
+  height: 100%;
+  border-color: #EAB63E;
+  position: absolute;
+  border-radius: 10px;
+  animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
 .progress-line.html span {
   width: 90%;
 }
