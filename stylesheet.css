@@ -49,7 +49,7 @@ body {
 .logo {
   position: relative;
   font-size: 25px;
-  color: #31473A;
+  color: #31473a;
   text-decoration: none;
   font-weight: 600;
 
@@ -61,18 +61,18 @@ body {
 .navbar a {
   display: inline-block;
   font-size: 25px;
-  color: #31473A;
+  color: #31473a;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
   transition: 0.3s;
   opacity: 0;
-  animation: slideTop .5s ease forwards;
-  animation-delay: calc(.2s * var(--i));
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 .navbar a:hover {
-  color: #7d8464
+  color: #7d8464;
 }
 
 .home {
@@ -80,7 +80,8 @@ body {
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background: url('https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat;
+  background: url('https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')
+    no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -97,18 +98,17 @@ body {
   font-weight: 700;
   opacity: 0;
   animation: slideBottom 1s ease forwards;
-  animation-delay: .7s;
+  animation-delay: 0.7s;
 }
 
 .home-content h3:nth-of-type(2) {
   margin-bottom: 30px;
   animation: slideTop 1s ease forwards;
-  animation-delay: .7s;
-
+  animation-delay: 0.7s;
 }
 
 .home-content h3 span {
-  color: #31473A;
+  color: #31473a;
 }
 
 .home-content h1 {
@@ -134,29 +134,28 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #7C8363;
+  border: 2px solid #7c8363;
   border-radius: 50%;
   font-size: 20px;
-  color: #7C8363;
+  color: #7c8363;
   text-decoration: none;
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
-  animation-delay: calc(.2s * var(--i));
+  animation-delay: calc(0.2s * var(--i));
   margin: 30px 15px 30px 0;
 }
 
 .home-sci a:hover {
-  background: #7C8363;
+  background: #7c8363;
   color: #010e0c;
-  box-shadow: 0 0 5px #7C8363,
-    0 0 25px #7C8363, 0 0 50px #7C8363;
+  box-shadow: 0 0 5px #7c8363, 0 0 25px #7c8363, 0 0 50px #7c8363;
 }
 
 .btn-box {
   display: inline-block;
   padding: 12px 28px;
-  background: #EDF4F2;
+  background: #edf4f2;
   border-radius: 40px;
   font-size: 16px;
   color: #010e0c;
@@ -166,14 +165,13 @@ body {
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
+  box-shadow: 0 0 5px #edf4f2, 0 0 25px #edf4f2;
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px #EDF4F2,
-    0 0 25px #EDF4F2, 0 0 50px #EDF4F2, 0 0 100px #EDF4F2;
+  box-shadow: 0 0 5px #edf4f2, 0 0 25px #edf4f2, 0 0 50px #edf4f2,
+    0 0 100px #edf4f2;
 }
-
 
 .about {
   display: grid;
@@ -195,26 +193,26 @@ body {
 }
 
 .about-text h2 span {
-  color: #EAB63E;
+  color: #eab63e;
 }
 
 .about-text h4 {
   font-size: 29px;
   font-weight: 600;
-  color: #EDF4F2;
+  color: #edf4f2;
   line-height: 1.7;
   margin: 15px 0 30px;
 }
 
 .about-text p {
-  color: #EDF4F2;
+  color: #edf4f2;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
 }
 
 #services {
-  color: #EDF4F2;
+  color: #edf4f2;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
@@ -231,7 +229,7 @@ body {
 }
 
 .sub-title span {
-  color: #EAB63E;
+  color: #eab63e;
 }
 
 .services-list {
@@ -249,8 +247,7 @@ body {
   border-right: 10px;
   border-radius: 20px;
   transition: background 0.5s, transform 0, 5s;
-  box-shadow: 1px 1px 20px #002f28,
-    1px 1px 40px #007362;
+  box-shadow: 1px 1px 20px #002f28, 1px 1px 40px #007362;
 }
 
 .services-list div i {
@@ -264,7 +261,6 @@ body {
   margin-bottom: 15px;
 }
 
-
 .services-list div a {
   text-decoration: none;
   color: black;
@@ -276,7 +272,7 @@ body {
 .read {
   display: inline-block;
   padding: 12px 28px;
-  background: #EDF4F2;
+  background: #edf4f2;
   border-radius: 40px;
   font-size: 16px;
   color: #010e0c;
@@ -286,14 +282,13 @@ body {
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
+  box-shadow: 0 0 5px #edf4f2, 0 0 25px #edf4f2;
 }
 
 .read:hover {
-  background: #EDF4F2;
+  background: #edf4f2;
   color: #010e0c;
-  box-shadow: 0 0 5px #EDF4F2,
-    0 0 25px #EDF4F2, 0 0 50px #EDF4F2;
+  box-shadow: 0 0 5px #edf4f2, 0 0 25px #edf4f2, 0 0 50px #edf4f2;
 }
 
 .services-list div:hover {
@@ -338,6 +333,7 @@ section {
 
 .Technical-bars .bar .info {
   margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .Technical-bars .bar .info span {
@@ -352,13 +348,13 @@ section {
   border-radius: 10px;
   width: 100%;
   height: 5px;
-  background-color: black;
-  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  background-color: #000;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
   transform: scaleX(0);
   transform-origin: left;
 }
-/*Keys for bar*/
 
+/*Keys for bar*/
 @keyframes animate {
   100% {
     transform: scaleX(1);
@@ -367,12 +363,13 @@ section {
 
 .Technical-bars .bar .progress-line span {
   height: 100%;
-  background-color: #EDF4F2;
+  background-color: #eab63e;
   position: absolute;
   border-radius: 10px;
-  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
   transform: scaleX(0);
   transform-origin: left;
+  box-shadow: 0 0 5px #eab63e;
 }
 
 .progress-line.html span {
@@ -443,14 +440,213 @@ section {
   opacity: 0;
 }
 
+/* radial bars */
+
+.radial-bars {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.radial-bars .radial-bar {
+  width: 50%;
+  height: 170px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.radial-bars .radial-bar svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 120px;
+  height: 160px;
+}
+
+.radial-bars .radial-bar .progress-bar {
+  stroke-width: 10;
+  stroke: #000;
+  fill: transparent;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  stroke-linecap: round;
+  animation: animate-bar 1s linear forwards;
+}
+
+.main-text {
+  padding-top: 130px;
+  margin-top: 200px;
+}
+
+.main-text h2 {
+  font-size: 60px;
+  line-height: 1;
+  text-align: center;
+}
+
+.main-text h2 span {
+  color: #eab63e;
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+}
+
+.row {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.row img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #eab63e);
+  position: absolute;
+  border-radius: 8px;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 40px;
+  transition: height 0.5s;
+}
+
+.layer h5 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.layer p {
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.layer i {
+  color: #edf4f2;
+  margin-top: 20px;
+  font-size: 20px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.row:hover img {
+  transform: scale(1.1);
+}
+
+.row:hover .layer {
+  height: 100%;
+}
+
+/* 
+keys for bars */
+@keyframes animate-bar {
+  100% {
+    stroke-dashoffset: -1;
+  }
+}
+.path {
+  stroke-width: 10;
+  stroke: #eab63e;
+  fill: transparent;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  stroke-linecap: round;
+}
+.path-1 {
+  animation: animate-path1 1s 1s linear forwards;
+}
+.path-2 {
+  animation: animate-path2 1s 1s linear forwards;
+}
+.path-3 {
+  animation: animate-path3 1s 1s linear forwards;
+}
+.path-4 {
+  animation: animate-path4 1s 1s linear forwards;
+}
+
+.radial-bar .percentage {
+  position: absolute;
+  top: 45%;
+  left: 44%;
+  transform: translate(-50% -50%);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+  opacity: 0;
+}
+
+.radial-bar .text {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50px);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+  opacity: 0;
+}
+
+/* keys for bars path */
+@keyframes animate-path1 {
+  100% {
+    stroke-dashoffset: 50;
+  }
+}
+
+@keyframes animate-path2 {
+  100% {
+    stroke-dashoffset: 175;
+  }
+}
+
+@keyframes animate-path3 {
+  100% {
+    stroke-dashoffset: 125;
+  }
+}
+
+@keyframes animate-path4 {
+  100% {
+    stroke-dashoffset: 75;
+  }
+}
+
 /* keys for showText */
 @keyframes showText {
   100% {
     opacity: 1;
   }
 }
-/*keys for slide Typed>>>>>>*/
 
+/*keys for slide Typed>>>>>>*/
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
