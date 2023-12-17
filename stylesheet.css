@@ -395,17 +395,6 @@ section {
   width: 85%;
 }
 
-.Technical-bars .bar .progress-line span {
-  height: 100%;
-  background-color: #edf4f2;
-  position: absolute;
-  border-radius: 10px;
-  animation: animate 1s 1s cubic-bezier(1, 0, .5, 1) forwards;
-  transform: scaleX(0);
-  transform-origin: left;
-}
-
-
 .progress-line span::after {
   position: absolute;
   padding: 1px 8px;
