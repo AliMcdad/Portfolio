@@ -353,7 +353,7 @@ section {
   width: 100%;
   height: 5px;
   background-color: black;
-  animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
   transform: scaleX(0);
   transform-origin: left;
 }
@@ -370,7 +370,7 @@ section {
   background-color: #EDF4F2;
   position: absolute;
   border-radius: 10px;
-  animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
   transform: scaleX(0);
   transform-origin: left;
 }
@@ -395,7 +395,71 @@ section {
   width: 85%;
 }
 
+.Technical-bars .bar .progress-line span {
+  height: 100%;
+  background-color: #edf4f2;
+  position: absolute;
+  border-radius: 10px;
+  animation: animate 1s 1s cubic-bezier(1, 0, .5, 1) forwards;
+  transform: scaleX(0);
+  transform-origin: left;
+}
 
+
+.progress-line span::after {
+  position: absolute;
+  padding: 1px 8px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  top: -28px;
+  right: -20px;
+  animation: showText 0.5s 1.5s linear forwards;
+  opacity: 0;
+}
+
+.progress-line.html span::after {
+  content: '90%';
+}
+
+.progress-line.css span::after {
+  content: '95%';
+}
+
+.progress-line.javascript span::after {
+  content: '85%';
+}
+
+.progress-line.nodejs span::after {
+  content: '85%';
+}
+
+.progress-line.angular span::after {
+  content: '85%';
+}
+
+.progress-line span::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-block-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  top: -10px;
+  right: 0;
+  animation: showText 0.5s 1.5s linear forwards;
+  opacity: 0;
+}
+
+/* keys for showText */
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
 /*keys for slide Typed>>>>>>*/
 
 @keyframes slideRight {
