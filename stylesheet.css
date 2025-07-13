@@ -131,25 +131,29 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  border: 2px solid #7c8363;
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ffffff;
   border-radius: 50%;
-  font-size: 20px;
-  color: #7c8363;
+  font-size: 22px;
+  color: #ffffff;
   text-decoration: none;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
   margin: 30px 15px 30px 0;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .home-sci a:hover {
-  background: #7c8363;
+  background: #ffffff;
   color: #010e0c;
-  box-shadow: 0 0 5px #7c8363, 0 0 25px #7c8363, 0 0 50px #7c8363;
+  border-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
 }
 
 .btn-box {
@@ -678,25 +682,28 @@ keys for bars */
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  background: transparent;
+  width: 45px;
+  height: 45px;
+  background: rgba(234, 182, 62, 0.2);
   border: 2px solid #eab63e;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 22px;
   color: #eab63e;
   text-decoration: none;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
   margin: 30px 15px 30px 0;
+  box-shadow: 0 2px 10px rgba(234, 182, 62, 0.3);
 }
 
 .contact-icons i:hover {
   background: #eab63e;
   color: #000;
-  box-shadow: 0 0 20px #eab63e;
+  border-color: #eab63e;
+  box-shadow: 0 0 15px rgba(234, 182, 62, 0.6), 0 0 25px rgba(234, 182, 62, 0.4);
+  transform: translateY(-2px);
 }
 
 .contact-form form {
@@ -742,6 +749,27 @@ form textarea {
   background: #edf4f2;
   color: #010e0c;
   box-shadow: 0 0 5px #edf4f2, 0 0 25px #edf4f2, 0 0 50px #edf4f2;
+}
+
+.contact-form form .send:disabled {
+  background: #6b7280;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+  opacity: 0.7;
+}
+
+.form-status {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-status p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .last-text p {
@@ -941,6 +969,9 @@ form textarea {
   
   .home-sci a {
     margin: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
   }
   
   /* About Section */
@@ -1094,6 +1125,13 @@ form textarea {
   
   .contact-icons {
     justify-content: center;
+  }
+  
+  .contact-icons i {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 10px;
   }
   
   .contact-form form {
