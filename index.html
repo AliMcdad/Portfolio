@@ -31,13 +31,13 @@
     <header class="header">
       <a href="#" class="logo">Portfolio</a>
 
-      <div class="menu-toggle" id="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar">
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+      </button>
 
-      <nav class="navbar" id="navbar">
+      <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
         <a href="#home" style="--i: 1" class="active">Home</a>
         <a href="#about" style="--i: 2">About</a>
         <a href="#services" style="--i: 3">Skills</a>
