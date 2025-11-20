@@ -1,0 +1,192 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://api.emailjs.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https:; connect-src 'self' https://api.emailjs.com; font-src 'self' data: https:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+    
+    <title>Portfolio | Ali Mcdad - Full Stack Developer</title>
+
+    <!-- box icons -->
+
+    <!-- custom CSS. -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">&gt; kaizen@home:~$</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar">
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+      </button>
+
+      <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <a href="about.html" style="--i: 1">About me</a>
+        <a href="portfolio.html" style="--i: 2" class="active">Portfolio</a>
+        <a href="contact.html" style="--i: 3">Contact</a>
+      </nav>
+    </header>
+
+    <section class="portfolio-page">
+      <div class="portfolio-header">
+        <h1>Latest <span>Projects</span></h1>
+        <p>Showcase of websites, applications, and digital solutions I've developed</p>
+      </div>
+
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="img/portfolio1.jpg" alt="E-Commerce Platform" />
+          <div class="layer">
+            <h5>E-Commerce Platform</h5>
+            <p>
+              Full-stack e-commerce solution built with React, Node.js, and MongoDB.
+              Features secure payment processing, inventory management,
+              and real-time analytics. Expertly deployed and hosted on cloud infrastructure
+              with advanced security measures including encryption and fraud detection.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Stripe API</span>
+            </div>
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: #eab63e"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="img/portfolio2.jpg" alt="Security Assessment Tool" />
+          <div class="layer">
+            <h5>Security Assessment Tool</h5>
+            <p>
+              Cybersecurity research project focused on vulnerability assessment
+              and penetration testing. Developed automated security scanning tools
+              and implemented OWASP security standards for web applications.
+              Comprehensive security auditing and reporting system.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">OWASP</span>
+              <span class="tech-tag">Security Testing</span>
+              <span class="tech-tag">Automation</span>
+            </div>
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: #eab63e"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="img/portfolio3.jpg" alt="SaaS Product Management Platform" />
+          <div class="layer">
+            <h5>SaaS Product Management Platform</h5>
+            <p>
+              Led product management for a comprehensive SaaS platform launch. 
+              Conducted market research, developed go-to-market strategy, and coordinated 
+              cross-functional teams. Achieved 150% of initial user acquisition targets
+              with robust analytics and user engagement features.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Product Strategy</span>
+              <span class="tech-tag">Analytics</span>
+              <span class="tech-tag">User Research</span>
+              <span class="tech-tag">Go-to-Market</span>
+            </div>
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: #eab63e"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="img/portfolio4.jpg" alt="Real-time Chat Application" />
+          <div class="layer">
+            <h5>Real-time Chat Application</h5>
+            <p>
+              Secure messaging platform with end-to-end encryption, real-time communication,
+              file sharing, and group management. Built with modern web technologies
+              and deployed with scalable cloud infrastructure. Features include
+              message history, user presence, and push notifications.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Socket.io</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">Redis</span>
+              <span class="tech-tag">Encryption</span>
+            </div>
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: #eab63e"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="img/portfolio5.jpg" alt="Cloud Infrastructure Dashboard" />
+          <div class="layer">
+            <h5>Cloud Infrastructure Dashboard</h5>
+            <p>
+              Comprehensive monitoring and management dashboard for cloud resources.
+              Real-time metrics, cost optimization insights, security monitoring,
+              and automated scaling recommendations. Integrated with major cloud providers
+              and featuring predictive analytics for resource planning.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">AWS</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Monitoring</span>
+            </div>
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: #eab63e"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="img/portfolio6.jpg" alt="Mobile-First Progressive Web App" />
+          <div class="layer">
+            <h5>Mobile-First Progressive Web App</h5>
+            <p>
+              Cross-platform mobile application built as a Progressive Web App.
+              Offline functionality, push notifications, native-like user experience,
+              and optimized performance. Features include location services,
+              camera integration, and seamless online/offline synchronization.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">PWA</span>
+              <span class="tech-tag">Service Workers</span>
+              <span class="tech-tag">IndexedDB</span>
+              <span class="tech-tag">Mobile UI</span>
+            </div>
+            <a href="#"
+              ><i class="bx bx-link-external" style="color: #eab63e"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>Developed by Ali Mcdad</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+    <script src="main.js"></script>
+  </body>
+</html>

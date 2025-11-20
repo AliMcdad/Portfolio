@@ -1,0 +1,164 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://api.emailjs.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https:; connect-src 'self' https://api.emailjs.com; font-src 'self' data: https:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+    
+    <title>About Me | Ali Mcdad - Full Stack Developer</title>
+
+    <!-- box icons -->
+
+    <!-- custom CSS. -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">&gt; kaizen@home:~$</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar">
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+      </button>
+
+      <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <a href="about.html" style="--i: 1" class="active">About me</a>
+        <a href="portfolio.html" style="--i: 2">Portfolio</a>
+        <a href="contact.html" style="--i: 3">Contact</a>
+      </nav>
+    </header>
+
+    <section class="about-page">
+      <div class="about-content">
+        <h1>&lt;About/&gt;</h1>
+        
+        <div class="about-main">
+          <div class="about-img">
+            <img
+              src="https://images.unsplash.com/photo-1611591378657-5cc32671b3f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvZ2d5JTIwZm9yZXN0fGVufDB8fDB8fHww"
+              alt="Profile"
+            />
+          </div>
+          
+          <div class="about-text">
+            <p>
+              Hello! I'm Ali, a seasoned multi-disciplinary technology professional with over 6 years of expertise spanning full-stack development,
+              cybersecurity research, and product management. With a strong foundation in both
+              technical implementation and strategic thinking, I bridge the gap between secure
+              development practices and business objectives, ensuring products are not only
+              functional but also resilient and market-ready.
+            </p>
+            
+            <div class="skills-divider">
+              ---
+            </div>
+            
+            <h3>Skills at a glance:</h3>
+            
+            <div class="skills-list">
+              <div class="skill-item">
+                <strong>Front-End Development:</strong> React JS (6+ years), Redux, Jest, Apollo Client, React Router, Saga, Thunk. React Native enthusiast.
+              </div>
+              <div class="skill-item">
+                <strong>UI/UX Design:</strong> 6+ years in mobile and web. Tools: Figma, Sketch, Photoshop.
+              </div>
+              <div class="skill-item">
+                <strong>Web Development:</strong> A decade in HTML, CSS, JS. Agile methodologies expert.
+              </div>
+              <div class="skill-item">
+                <strong>Dev Tools & OS:</strong> macOS user (7+ years), past in Fedora, Ubuntu, Arch Linux. My development environment of choice is VSCode.
+              </div>
+              <div class="skill-item">
+                <strong>Cybersecurity:</strong> Security assessments, penetration testing, vulnerability research, OWASP standards.
+              </div>
+              <div class="skill-item">
+                <strong>Product Management:</strong> Strategic planning, roadmap development, cross-functional team leadership.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-section">
+      <div class="blog-content">
+        <h2>Recent <span>Blog Posts</span></h2>
+        
+        <div class="blog-grid">
+          <article class="blog-post">
+            <div class="blog-meta">
+              <span class="blog-date">2024-01-15</span>
+              <span class="blog-category">Development</span>
+            </div>
+            <h3>Building Secure React Applications: Best Practices</h3>
+            <p>
+              Exploring the intersection of modern React development and cybersecurity. 
+              Learn about secure coding practices, XSS prevention, and state management security considerations...
+            </p>
+            <a href="#" class="blog-read-more">Read more</a>
+          </article>
+          
+          <article class="blog-post">
+            <div class="blog-meta">
+              <span class="blog-date">2024-01-08</span>
+              <span class="blog-category">Product</span>
+            </div>
+            <h3>The Product Manager's Guide to Technical Debt</h3>
+            <p>
+              How to effectively communicate technical debt to stakeholders and create 
+              sustainable development practices. Balancing feature delivery with code quality...
+            </p>
+            <a href="#" class="blog-read-more">Read more</a>
+          </article>
+          
+          <article class="blog-post">
+            <div class="blog-meta">
+              <span class="blog-date">2023-12-20</span>
+              <span class="blog-category">Security</span>
+            </div>
+            <h3>Zero-Trust Architecture in Modern Web Applications</h3>
+            <p>
+              Implementing zero-trust security principles in web development. 
+              From authentication strategies to data encryption and secure API design...
+            </p>
+            <a href="#" class="blog-read-more">Read more</a>
+          </article>
+          
+          <article class="blog-post">
+            <div class="blog-meta">
+              <span class="blog-date">2023-12-10</span>
+              <span class="blog-category">Development</span>
+            </div>
+            <h3>Full-Stack Performance Optimization Strategies</h3>
+            <p>
+              End-to-end performance optimization techniques covering frontend rendering, 
+              backend processing, database queries, and cloud infrastructure...
+            </p>
+            <a href="#" class="blog-read-more">Read more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>Developed by Ali Mcdad</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+    <script src="main.js"></script>
+  </body>
+</html>
