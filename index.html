@@ -7,7 +7,7 @@
     <!-- Security Headers -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://api.emailjs.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https:; connect-src 'self' https://api.emailjs.com; font-src 'self' data: https:;"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://api.emailjs.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; img-src 'self' data: https:; connect-src 'self' https://api.emailjs.com; font-src 'self' data: https:;"
     />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta http-equiv="X-Frame-Options" content="DENY" />
@@ -21,7 +21,7 @@
       content="camera=(), microphone=(), geolocation=()"
     />
 
-    <title>Responsive Personal Portfolio Web Design | AliMcdad</title>
+    <title>AliMcdad</title>
 
     <!-- box icons -->
 
@@ -31,6 +31,12 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,7 +44,7 @@
 
   <body>
     <header class="header">
-      <a href="index.html" class="logo">&gt; kaizen@home:~$</a>
+      <a href="/" class="logo terminal-prompt">kaizen@home:~$</a>
 
       <button
         class="menu-toggle"

@@ -3,15 +3,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Security Headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://api.emailjs.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: https:; connect-src 'self' https://api.emailjs.com; font-src 'self' data: https:;">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
-    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
-    
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://api.emailjs.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; img-src 'self' data: https:; connect-src 'self' https://api.emailjs.com; font-src 'self' data: https:;"
+    />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta
+      http-equiv="Referrer-Policy"
+      content="strict-origin-when-cross-origin"
+    />
+    <meta
+      http-equiv="Permissions-Policy"
+      content="camera=(), microphone=(), geolocation=()"
+    />
+
     <title>Contact | Ali Mcdad - Full Stack Developer</title>
 
     <!-- box icons -->
@@ -22,21 +31,42 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
     <header class="header">
-      <a href="index.html" class="logo">&gt; kaizen@home:~$</a>
+      <a href="index.html" class="logo terminal-prompt">kaizen@home:~$</a>
 
-      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar">
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
         <span class="hamburger-line" aria-hidden="true"></span>
         <span class="hamburger-line" aria-hidden="true"></span>
         <span class="hamburger-line" aria-hidden="true"></span>
       </button>
 
-      <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+      <nav
+        class="navbar"
+        id="navbar"
+        role="navigation"
+        aria-label="Main navigation"
+      >
         <a href="about.html" style="--i: 1">About me</a>
         <a href="portfolio.html" style="--i: 2">Portfolio</a>
         <a href="contact.html" style="--i: 3" class="active">Contact</a>
@@ -53,14 +83,15 @@
           <h2>Contact <span>Me</span></h2>
           <h4>Let's build something amazing together!</h4>
           <p>
-            Ready to collaborate on your next project? Whether you need full-stack development,
-            cybersecurity consultation, or product strategy guidance, I'm here to help
-            turn your ideas into secure, scalable solutions.
+            Ready to collaborate on your next project? Whether you need
+            full-stack development, cybersecurity consultation, or product
+            strategy guidance, I'm here to help turn your ideas into secure,
+            scalable solutions.
           </p>
           <div class="contact-list">
-            <li><i class="bx bxl-github"></i>   GitHub</li>
-            <li><i class="bx bxl-linkedin"></i>   LinkedIn</li>
-            <li><i class="bx bxs-envelope"></i>   alimcdad0@gmail.com</li>
+            <li><i class="bx bxl-github"></i> GitHub</li>
+            <li><i class="bx bxl-linkedin"></i> LinkedIn</li>
+            <li><i class="bx bxs-envelope"></i> alimcdad0@gmail.com</li>
           </div>
           <div class="contact-icons">
             <a href="#"><i class="bx bxl-github"></i></a>
@@ -72,10 +103,24 @@
 
         <div class="contact-form">
           <form id="contact-form">
-            <input type="text" name="from_name" placeholder="Enter Your Name" required />
-            <input type="email" name="from_email" placeholder="Enter Your Email" required />
+            <input
+              type="text"
+              name="from_name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="from_email"
+              placeholder="Enter Your Email"
+              required
+            />
 
-            <input type="text" name="subject" placeholder="Enter Your Subject" />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter Your Subject"
+            />
             <textarea
               name="message"
               id="message"
@@ -94,8 +139,12 @@
 
     <footer class="contact-footer">
       <div class="footer-content">
-        <p>© 2023 All Rights Reserved. Content on the site is licensed under 
-           <a href="#" class="license-link">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        <p>
+          © 2023 All Rights Reserved. Content on the site is licensed under
+          <a href="#" class="license-link"
+            >Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+            International License</a
+          >.
         </p>
       </div>
     </footer>
